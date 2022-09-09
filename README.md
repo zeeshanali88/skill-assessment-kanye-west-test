@@ -70,6 +70,7 @@ Email: me.zeeshanali88@gmail.com <br/>
         -w /var/www/html \
         laravelsail/php81-composer:latest \
         composer install --ignore-platform-reqs
+        php artisan migrate --seed
     ```
 
 3. Start the container (Sail):
